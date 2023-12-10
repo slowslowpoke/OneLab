@@ -7,11 +7,11 @@
     tools:context=".SecondaryActivity">
 
     <TextView
-        android:id="@+id/tvActivity2"
+        android:id="@+id/tvTitle2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textSize="30sp"
+        android:text="@string/currently_in_secondary"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -28,5 +28,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvActivity2" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
